@@ -1,0 +1,74 @@
+/*body {
+	margin: 0;
+}*/
+
+* {
+	font-family: 'Crimson Text', serif;
+}
+ 
+a {
+	color: inherit !important;
+}
+a:hover {
+	color: inherit !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.big {
+  font-size: 1.1em;
+}
+
+.cover {
+  background: #015961;
+  height: 100vh;
+  text-align: center;
+  color: #263238;
+  /* text-shadow: 2px 2px #DC680088; */
+  background-image: url('../images/cover.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  padding: 2em;
+  background: #55C1CB88;
+  transform: translateY(-50%);
+  margin-top: 50vh;
+  position: absolute;
+  width: 100%;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.intro {
+	margin-top: 2rem;
+}
+
+.navaneet-img {
+	float: right;
+	height: 7em;
+	padding-left: 20px;
+}
+
+footer {
+	background: #24A9B5;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+footer h4 {
+	color: #F27200;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+footer ul {
+	list-style: none;
+	padding-left: 0;
+}
