@@ -12,6 +12,9 @@ a {
 a:hover {
 	color: inherit !important;
 }
+h2 {
+  text-align: left;
+}
 
 .bold {
   font-weight: bold;
@@ -43,18 +46,35 @@ a:hover {
   width: 100%;
 }
 
+.orange-text {
+  color: #F27200;
+}
+
+.blue-text {
+  color: #028793;
+}
+
 .title {
   font-size: 4rem;
+  color: #FF9230;
+  text-shadow: 1px 1px 1px #00000088
 }
 
 .intro {
-	margin-top: 2rem;
+  margin-top: 2rem;
+  text-align: justify;
+}
+.services {
+  margin-top: 1rem;
+  text-align: justify;
 }
 
-.navaneet-img {
-	float: right;
-	height: 7em;
-	padding-left: 20px;
+.section-img {
+	text-align: center;
+}
+.section-img img {
+  max-width: 100%;
+  max-height: 50vh;
 }
 
 footer {
@@ -71,4 +91,10 @@ footer h4 {
 footer ul {
 	list-style: none;
 	padding-left: 0;
+}
+
+@media (max-width: 768px) {
+  .reverse-when-small {
+    flex-direction: column-reverse;
+  }
 }
