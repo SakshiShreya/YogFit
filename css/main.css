@@ -85,6 +85,11 @@ h2 {
 .carousel-item {
   background: #55C1CB;
 }
+.carousel-caption {
+  background: #00000055;
+  padding-top: 10px !important;
+  padding-bottom: 0 !important;
+}
 
 footer {
 	background: #24A9B5;
