@@ -389,7 +389,10 @@
       $(window).on('load', function() {
         $('.carousel').carousel('pause');
       });
-      $(window).on('ready', function() {
+      $(window).ready(function() {
+        $('.carousel').carousel('pause');
+      });
+      $('.carousel').ready(function() {
         $('.carousel').carousel('pause');
       });
       $('.carousel').carousel('pause');
