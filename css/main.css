@@ -3,14 +3,14 @@
 }*/
 
 * {
-	font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', serif;
 }
- 
+
 a {
-	color: inherit !important;
+  color: inherit !important;
 }
 a:hover {
-	color: inherit !important;
+  color: inherit !important;
 }
 h2 {
   text-align: left;
@@ -36,18 +36,51 @@ h2 {
   background-size: cover;
   background-position: center;
 }
+.cover-img {
+  height: 2.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.white-text {
+  color: white;
+}
 
 .header {
   padding: 2em;
-  background: #55C1CB88;
+  background: #55c1cb88;
   transform: translateY(-50%);
   margin-top: 50vh;
   position: absolute;
   width: 100%;
 }
 
+header {
+  background: #24a9b5;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header img {
+  height: 70px;
+  border-radius: 5px;
+}
+header h2 {
+  margin-bottom: 0;
+  margin-left: 15px;
+  margin-top: 5px;
+  color: white;
+  font-weight: bold;
+}
+
 .orange-text {
-  color: #F27200;
+  color: #f27200;
 }
 
 .blue-text {
@@ -56,55 +89,62 @@ h2 {
 
 .title {
   font-size: 4rem;
-  color: #FF9230;
-  text-shadow: 1px 1px 1px #00000088
+  color: #ff9230;
+  text-shadow: 1px 1px 1px #00000088;
 }
 
 .intro {
   margin-top: 2rem;
   text-align: justify;
 }
-.services, .gallery {
+.services,
+.gallery {
   margin-top: 1rem;
   text-align: justify;
 }
 
 .section-img {
-	text-align: center;
+  text-align: center;
 }
 .section-img img {
   max-width: 100%;
   max-height: 40vh;
 }
 .d-block {
-  display: block!important;
+  display: block !important;
   max-height: 80vh;
   margin: auto;
   max-width: 100%;
 }
 .carousel-item {
-  background: #55C1CB;
+  background: #55c1cb;
 }
 .carousel-caption {
   background: #00000055;
   padding-top: 10px !important;
   padding-bottom: 0 !important;
 }
+.carousel-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 
 footer {
-	background: #24A9B5;
-	padding-top: 2rem;
-	padding-bottom: 1rem;
+  background: #24a9b5;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 footer h4 {
-	color: #F27200;
-	text-shadow: 1px 1px 2px #000000;
+  color: #f27200;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 footer ul {
-	list-style: none;
-	padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 @media (max-width: 768px) {
