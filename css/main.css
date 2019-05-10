@@ -137,9 +137,17 @@ footer {
   padding-bottom: 1rem;
 }
 
-footer h4 {
+footer .row {
+  align-items: flex-end;
+}
+
+footer h4, footer h5 {
   color: #f27200;
   text-shadow: 1px 1px 2px #000000;
+}
+
+footer .col:last-child {
+  text-align: right;
 }
 
 footer ul {
@@ -150,5 +158,14 @@ footer ul {
 @media (max-width: 768px) {
   .reverse-when-small {
     flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 576px) {
+  footer .col:last-child {
+    text-align: left;
+  }
+  footer .row {
+    flex-direction: column;
   }
 }
